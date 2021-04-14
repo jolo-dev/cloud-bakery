@@ -146,7 +146,7 @@
     "@aws-cdk/core" "1.97.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-certificatemanager@1.97.0", "@aws-cdk/aws-certificatemanager@^1.97.0":
+"@aws-cdk/aws-certificatemanager@1.97.0":
   version "1.97.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-certificatemanager/-/aws-certificatemanager-1.97.0.tgz#1306209b89500476f790ea106e06e0b9fffcddbb"
   integrity sha512-4CpK0sg8gB2AkNzTbVfVElr8tPpKKQtS0F/lJnWfJZAzxD3/uHnv/YILy6rC544vVwHhTsXLb762vRJlytvz8g==
@@ -157,7 +157,7 @@
     "@aws-cdk/core" "1.97.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-certificatemanager@1.98.0":
+"@aws-cdk/aws-certificatemanager@1.98.0", "@aws-cdk/aws-certificatemanager@^1.97.0":
   version "1.98.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-certificatemanager/-/aws-certificatemanager-1.98.0.tgz#32ecd35c556c87e25f5179ff94ecdf1a7de996fc"
   integrity sha512-DhspxEQha9drdApV7/BlH+K1qUN4lJdWgAWqlKsLSBeXKBAFV3/M7hbPMXRlDrV5hc23sfAM8+gXJ6MnGybtQw==
@@ -486,7 +486,7 @@
     "@aws-cdk/core" "1.97.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-elasticloadbalancingv2@1.97.0", "@aws-cdk/aws-elasticloadbalancingv2@^1.97.0":
+"@aws-cdk/aws-elasticloadbalancingv2@1.97.0":
   version "1.97.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-elasticloadbalancingv2/-/aws-elasticloadbalancingv2-1.97.0.tgz#f57f6751249b289daa9e313e3ffe15bb721a2aee"
   integrity sha512-4Fmf+RcArzhDvN9NPvAsoXUstN7qZuuqaY09dKGfV465p2963DV5iHtBoO4y/tpknL20qtdaxP6dKkGlVhekOQ==
@@ -501,6 +501,23 @@
     "@aws-cdk/core" "1.97.0"
     "@aws-cdk/cx-api" "1.97.0"
     "@aws-cdk/region-info" "1.97.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-elasticloadbalancingv2@^1.97.0":
+  version "1.98.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-elasticloadbalancingv2/-/aws-elasticloadbalancingv2-1.98.0.tgz#cc2c29001419c4fe88b00491ac7fc2872bebde50"
+  integrity sha512-+z1ZpOzhkiJJIkYe1d67i615fDpAMWJl3RPLX/8Mvql1yi6AewUBaWIp4kPQ2tLJySAF4ATvNzjN3sLqXngdSg==
+  dependencies:
+    "@aws-cdk/aws-certificatemanager" "1.98.0"
+    "@aws-cdk/aws-cloudwatch" "1.98.0"
+    "@aws-cdk/aws-ec2" "1.98.0"
+    "@aws-cdk/aws-iam" "1.98.0"
+    "@aws-cdk/aws-lambda" "1.98.0"
+    "@aws-cdk/aws-s3" "1.98.0"
+    "@aws-cdk/cloud-assembly-schema" "1.98.0"
+    "@aws-cdk/core" "1.98.0"
+    "@aws-cdk/cx-api" "1.98.0"
+    "@aws-cdk/region-info" "1.98.0"
     constructs "^3.3.69"
 
 "@aws-cdk/aws-events-targets@1.97.0":
