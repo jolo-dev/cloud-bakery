@@ -1,6 +1,6 @@
 import '@aws-cdk/assert/jest';
 import { Stack } from '@aws-cdk/core';
-import { CertificateManager } from '../src/certificates-manager';
+import { CertificateManager } from '../src/certificatesManager';
 
 test( 'CertificatesManager', () => {
   const stack = new Stack();

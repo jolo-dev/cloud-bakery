@@ -5,9 +5,9 @@ import { Cognito } from '../src/cognito';
 test( 'Cognito', () => {
   const stack = new Stack();
   new Cognito( stack, 'test',
+    { cognitoDomain: { domainPrefix: 'test-cognito-domain' } },
     { userPoolName: 'testUserPool' },
     { userPoolClientName: 'testUserPoolClientName' },
-    { cognitoDomain: { domainPrefix: 'test-cognito-domain' } },
   );
 
   expect( stack ).toHaveResource( 'AWS::Cognito::UserPool', { UserPoolName: 'testUserPool' } );

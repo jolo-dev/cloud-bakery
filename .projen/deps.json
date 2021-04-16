@@ -19,7 +19,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.97.0",
+      "version": "^1.98.0",
       "type": "build"
     },
     {
@@ -75,47 +75,47 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.97.0",
+      "version": "^1.98.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-certificatemanager",
-      "version": "^1.97.0",
+      "version": "^1.98.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-cognito",
-      "version": "^1.97.0",
+      "version": "^1.98.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-ec2",
-      "version": "^1.97.0",
+      "version": "^1.98.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-ecs-patterns",
-      "version": "^1.97.0",
+      "version": "^1.98.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-ecs",
-      "version": "^1.97.0",
+      "version": "^1.98.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-elasticloadbalancingv2",
-      "version": "^1.97.0",
+      "version": "^1.98.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-route53",
-      "version": "^1.97.0",
+      "version": "^1.98.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.97.0",
+      "version": "^1.98.0",
       "type": "runtime"
     }
   ],

@@ -7,7 +7,7 @@ type OwnHostedZoneProps = Omit<PublicHostedZoneProps, 'x'> & {
   hostedZoneId?: string;
 };
 
-export class CertificateManager extends Construct {
+export class CertificatesManager extends Construct {
   private appDnsName: string;
   private hostedZone: IHostedZone;
 
