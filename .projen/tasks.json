@@ -33,6 +33,22 @@
       ],
       "condition": "git diff --exit-code > /dev/null"
     },
+    "local": {
+      "name": "local",
+      "steps": [
+        {
+          "exec": "tsc -p ."
+        }
+      ]
+    },
+    "bake": {
+      "name": "bake",
+      "steps": [
+        {
+          "exec": "sudo npm i -g && bake"
+        }
+      ]
+    },
     "compile": {
       "name": "compile",
       "category": "00.build",

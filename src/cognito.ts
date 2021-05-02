@@ -9,28 +9,35 @@ import {
 import { CfnOutput, Construct } from '@aws-cdk/core';
 
 type OwnUserPoolClientProps = Omit<UserPoolClientProps, 'userPool'>
+
+type EitherCognitoOrCustomDomain<T, TKey extends keyof T = keyof T> =
+    TKey extends keyof T ? { [P in TKey]-?:T[TKey] } & Partial<Record<Exclude<keyof T, TKey>, never>>: never
+interface OwnDomain {
+  domain: EitherCognitoOrCustomDomain<UserPoolDomainOptions>;
+}
+
 export class Cognito extends Construct {
-  private userPool: UserPool;
-  private userPoolClient: UserPoolClient;
-  private userPoolDomain: UserPoolDomain;
+  readonly userPool: UserPool;
+  readonly userPoolClient: UserPoolClient;
+  readonly userPoolDomain: UserPoolDomain;
 
   constructor(scope: Construct, id: string
-    , domainProps: UserPoolDomainOptions
+    , domainProps: OwnDomain // should be either Cognito or Custom Domain
     , userPoolProps?: UserPoolProps
     , userPoolClientProps?: OwnUserPoolClientProps,
   ) {
     super(scope, id);
-    this.userPool = new UserPool(this, `${id}-userPool`, userPoolProps);
+    this.userPool = new UserPool(this, 'userPool', userPoolProps);
     this.userPoolClient = new UserPoolClient(this,
-      `${id}-userPoolClient`,
+      'userPoolClient',
       // @ts-ignore because we want to overwrite the userPool attribute
-      { userPool: this.userPool, ...userPoolClientProps });
-    this.userPoolDomain = this.createUserPoolDomain(id, domainProps);
+      { userPool: this.userPool, generateSecret: true, ...userPoolClientProps });
+    this.userPoolDomain = this.createUserPoolDomain(domainProps.domain);
     this.createCfnOutputs();
   }
 
-  private createUserPoolDomain(id: string, domain: UserPoolDomainOptions) {
-    return this.userPool.addDomain(`${id}-domain`, domain);
+  private createUserPoolDomain(domain: UserPoolDomainOptions) {
+    return this.userPool.addDomain('domain', domain);
   }
 
   private createCfnOutputs() {

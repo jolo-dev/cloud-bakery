@@ -6,5 +6,8 @@
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "prettier.enable": false
+  "prettier.enable": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
 }

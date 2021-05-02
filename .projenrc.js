@@ -1,14 +1,15 @@
 const { AwsCdkTypeScriptApp } = require('projen');
 
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.98.0',
+  cdkVersion: '1.100.0',
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkTypeScriptApp',
-  name: 'loadbalanced-ecs-app',
+  name: 'cloud-bakery',
   authorName: 'Jolo',
 
   /* AwsCdkTypeScriptAppOptions */
-  appEntrypoint: 'main.ts', /* The CDK app's entrypoint (relative to the source directory, which is "src" by default). */
+  appEntrypoint:
+    'main.ts' /* The CDK app's entrypoint (relative to the source directory, which is "src" by default). */,
   cdkDependencies: [
     '@aws-cdk/aws-certificatemanager',
     '@aws-cdk/aws-cognito',
@@ -16,25 +17,34 @@ const project = new AwsCdkTypeScriptApp({
     '@aws-cdk/aws-ecs',
     '@aws-cdk/aws-ecs-patterns',
     '@aws-cdk/aws-elasticloadbalancingv2',
+    '@aws-cdk/aws-elasticloadbalancingv2-actions',
     '@aws-cdk/aws-route53',
-  ], /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
+  ] /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */,
   // cdkVersionPinning: false,                                                 /* Use pinned version instead of caret version for CDK. */
   // context: undefined,                                                       /* Additional context to include in `cdk.json`. */
   // requireApproval: CdkApprovalLevel.BROADENING,                             /* To protect you against unintended changes that affect your security posture, the AWS CDK Toolkit prompts you to approve security-related changes before deploying them. */
 
   /* NodePackageOptions */
-  // allowLibraryDependencies: true,                                           /* Allow the project to include `peerDependencies` and `bundledDependencies`. */
-  // authorEmail: undefined,                                                   /* Author's e-mail. */
-  // authorName: undefined,                                                    /* Author's name. */
+  // allowLibraryDependencies: true,                                           /* Allow the project to include `peerDependencies` and `bundledDependencies`. */                                                /* Author's name. */
   // authorOrganization: undefined,                                            /* Author's Organization. */
   // authorUrl: undefined,                                                     /* Author's URL / Website. */
   // autoDetectBin: true,                                                      /* Automatically add all executables under the `bin` directory to your `package.json` file under the `bin` section. */
-  // bin: undefined,                                                           /* Binary programs vended with your module. */
+  bin: {
+    bake: './lib/main.js',
+  }, /* Binary programs vended with your module. */
   // bundledDeps: undefined,                                                   /* List of dependencies to bundle into this module. */
-  // deps: [],                                                                 /* Runtime dependencies of this module. */
+  deps: ['validator',
+    '@aws-sdk/client-route-53',
+    '@aws-sdk/client-acm',
+    'inquirer',
+    '@types/inquirer',
+    'figlet',
+    'clear',
+    'chalk',
+    'commander'], /* Runtime dependencies of this module. */
   // description: undefined,                                                   /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],                                                              /* Build dependencies for this module. */
-  // entrypoint: 'lib/index.js',                                               /* Module entrypoint (`main` in `package.json`). */
+  devDeps: ['@types/figlet', '@types/clear'], /* Build dependencies for this module. */
+  entrypoint: './lib/main.js', /* Module entrypoint (`main` in `package.json`). */
   // homepage: undefined,                                                      /* Package's Homepage / Website. */
   // keywords: undefined,                                                      /* Keywords to include in `package.json`. */
   // license: 'Apache-2.0',                                                    /* License's SPDX identifier. */
@@ -52,7 +62,10 @@ const project = new AwsCdkTypeScriptApp({
   // projenCommand: 'npx projen',                                              /* The shell command to use in order to run the projen CLI. */
   // repository: undefined,                                                    /* The repository is the location where the actual code for your package lives. */
   // repositoryDirectory: undefined,                                           /* If the package.json for your package is not in the root directory (for example if it is part of a monorepo), you can specify the directory in which it lives. */
-  // scripts: {},                                                              /* npm scripts to include. */
+  scripts: {
+    local: 'tsc -p .',
+    bake: 'sudo npm i -g && bake',
+  }, /* npm scripts to include. */
   // stability: undefined,                                                     /* Package's Stability. */
 
   /* NodeProjectOptions */

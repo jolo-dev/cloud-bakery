@@ -1,6 +1,14 @@
 {
   "dependencies": [
     {
+      "name": "@types/clear",
+      "type": "build"
+    },
+    {
+      "name": "@types/figlet",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -19,7 +27,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.98.0",
+      "version": "^1.100.0",
       "type": "build"
     },
     {
@@ -75,47 +83,88 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.98.0",
+      "version": "^1.100.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-certificatemanager",
-      "version": "^1.98.0",
+      "version": "^1.100.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-cognito",
-      "version": "^1.98.0",
+      "version": "^1.100.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-ec2",
-      "version": "^1.98.0",
+      "version": "^1.100.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-ecs-patterns",
-      "version": "^1.98.0",
+      "version": "^1.100.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-ecs",
-      "version": "^1.98.0",
+      "version": "^1.100.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-elasticloadbalancingv2-actions",
+      "version": "^1.100.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-elasticloadbalancingv2",
-      "version": "^1.98.0",
+      "version": "^1.100.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-route53",
-      "version": "^1.98.0",
+      "version": "^1.100.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.98.0",
+      "version": "^1.100.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-sdk/client-acm",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-sdk/client-route-53",
+      "type": "runtime"
+    },
+    {
+      "name": "@types/inquirer",
+      "type": "runtime"
+    },
+    {
+      "name": "chalk",
+      "type": "runtime"
+    },
+    {
+      "name": "clear",
+      "type": "runtime"
+    },
+    {
+      "name": "commander",
+      "type": "runtime"
+    },
+    {
+      "name": "figlet",
+      "type": "runtime"
+    },
+    {
+      "name": "inquirer",
+      "type": "runtime"
+    },
+    {
+      "name": "validator",
       "type": "runtime"
     }
   ],

@@ -1,3 +1,5 @@
+// import { Peer, Port, Protocol } from '@aws-cdk/aws-ec2';
+import { Peer, Port, Protocol } from '@aws-cdk/aws-ec2';
 import {
   Cluster,
   ContainerImage,
@@ -14,49 +16,58 @@ import {
   ApplicationLoadBalancedFargateService,
   ApplicationLoadBalancedFargateServiceProps,
 } from '@aws-cdk/aws-ecs-patterns';
+import { ApplicationLoadBalancer, CfnListenerRule } from '@aws-cdk/aws-elasticloadbalancingv2';
+// import { AuthenticateCognitoAction } from '@aws-cdk/aws-elasticloadbalancingv2-actions';
 import { Construct, CfnOutput } from '@aws-cdk/core';
+// import { CertificatesManager } from './certificatesManager';
+import { Cognito } from './cognito';
 
 // Remove Cluster prop because we create a new one
-// type loadBalancedEcsProps = Omit<ApplicationLoadBalancedFargateServiceProps | ApplicationLoadBalancedEc2ServiceProps, 'cluster'>;
+type LoadBalancedEcsProps =
+  Omit<ApplicationLoadBalancedFargateServiceProps | ApplicationLoadBalancedEc2ServiceProps, 'cluster'> &
+  { authenticateViaCognito: boolean }
 
-export interface EcsData {
+
+export interface LoadBalancedEcsIngridients {
   clusterName: string;
   fargate: boolean;
   imageName: string;
   ports: PortMapping[];
   // optionally passing information like cluster or VPC. If not it will be created during runtime
-  loadBalancedEcsProps?: ApplicationLoadBalancedFargateServiceProps | ApplicationLoadBalancedEc2ServiceProps;
+  loadBalancedEcsProps?: LoadBalancedEcsProps;
   clusterProps?: ClusterProps;
   taskDefinitonProps?: FargateTaskDefinitionProps | Ec2TaskDefinitionProps;
 }
 
 export class LoadBalancedEcs extends Construct {
-  private clusterName: string;
-  private ports: PortMapping[];
-  private imageName: string;
-  private fargate: boolean;
-  private cluster: Cluster;
-  private taskDefinition: FargateTaskDefinition | Ec2TaskDefinition;
-  private loadBalancedEcsProps: ApplicationLoadBalancedFargateServiceProps | ApplicationLoadBalancedEc2ServiceProps | undefined;
-  private loadBalancedService: ApplicationLoadBalancedFargateService | ApplicationLoadBalancedEc2Service;
+  readonly clusterName: string;
+  readonly ports: PortMapping[];
+  readonly imageName: string;
+  readonly fargate: boolean;
+  readonly cluster: Cluster;
+  readonly taskDefinition: FargateTaskDefinition | Ec2TaskDefinition;
+  readonly loadBalancedEcsProps: ApplicationLoadBalancedFargateServiceProps | ApplicationLoadBalancedEc2ServiceProps | undefined;
+  readonly loadBalancedService: ApplicationLoadBalancedFargateService | ApplicationLoadBalancedEc2Service;
+  readonly loadBalancer: ApplicationLoadBalancer;
 
-  constructor( scope: Construct, id: string, ecsData: EcsData ) {
+  constructor( scope: Construct, id: string, lbEcsIngridients: LoadBalancedEcsIngridients ) {
     super( scope, id );
-    this.clusterName = ecsData.clusterName;
-    this.fargate = ecsData.fargate;
-    this.imageName = ecsData.imageName;
-    this.ports = ecsData.ports;
-    this.cluster = new Cluster( scope, `${id}-cluster`, ecsData.clusterProps );
-    this.taskDefinition = this.createTaskDefinition(id, ecsData.taskDefinitonProps);
-    this.loadBalancedEcsProps = ecsData.loadBalancedEcsProps ?? undefined;
+    this.clusterName = lbEcsIngridients.clusterName;
+    this.fargate = lbEcsIngridients.fargate;
+    this.imageName = lbEcsIngridients.imageName;
+    this.ports = lbEcsIngridients.ports;
+    this.cluster = new Cluster( scope, `${this.clusterName}-cluster`, lbEcsIngridients.clusterProps );
+    this.taskDefinition = this.createTaskDefinition(lbEcsIngridients.taskDefinitonProps);
+    this.loadBalancedEcsProps = lbEcsIngridients.loadBalancedEcsProps ?? undefined;
     this.loadBalancedService = this.buildLoadBalancedService();
+    this.loadBalancer = this.loadBalancedService.loadBalancer;
     this.createCfnOutputs();
   }
 
-  private createTaskDefinition(id: string, taskDefinitionProps?: FargateTaskDefinitionProps | Ec2TaskDefinitionProps) {
+  private createTaskDefinition(taskDefinitionProps?: FargateTaskDefinitionProps | Ec2TaskDefinitionProps) {
     const taskDefinition = this.fargate ?
-      new FargateTaskDefinition( this, `${id}-fargate-task-definition`, taskDefinitionProps ) :
-      new Ec2TaskDefinition( this, `${id}-ec2-task-definition`, taskDefinitionProps );
+      new FargateTaskDefinition( this, `${this.clusterName}-fargate-task-definition`, taskDefinitionProps ) :
+      new Ec2TaskDefinition( this, `${this.clusterName}-ec2-task-definition`, taskDefinitionProps );
     taskDefinition.addContainer( `${this.clusterName}-container`, { image: ContainerImage.fromRegistry( this.imageName ), portMappings: this.ports } );
     return taskDefinition;
   }
@@ -77,8 +88,8 @@ export class LoadBalancedEcs extends Construct {
 
   private createCfnOutputs() {
     new CfnOutput(this, 'CfnClusterName', { exportName: 'ClusterName', value: this.cluster.clusterName });
-    new CfnOutput(this, 'CfnClusterArn', { exportName: 'ClusterName', value: this.cluster.clusterArn });
-    new CfnOutput(this, 'CfnTaskDefinitionArn', { exportName: 'ClusterName', value: this.taskDefinition.taskDefinitionArn });
+    new CfnOutput(this, 'CfnClusterArn', { exportName: 'ClusterArn', value: this.cluster.clusterArn });
+    new CfnOutput(this, 'CfnTaskDefinitionArn', { exportName: 'TaskDefinitionArn', value: this.taskDefinition.taskDefinitionArn });
     // LoadBalancer related information
     new CfnOutput(this, 'CfnLoadBalancerName', { exportName: 'LoadBalancerName', value: this.loadBalancedService.loadBalancer.loadBalancerName });
     new CfnOutput(this, 'CfnLoadBalancerArn', { exportName: 'LoadBalancerArn', value: this.loadBalancedService.loadBalancer.loadBalancerArn });
@@ -97,6 +108,45 @@ export class LoadBalancedEcs extends Construct {
     this.loadBalancedService.loadBalancer.vpc.publicSubnets.forEach((sub, index: number) => {
       new CfnOutput(this, `CfnPublicSubnetid-${index}`, { exportName: `PublicSubnetId-${index}`, value: sub.subnetId });
       new CfnOutput(this, `CfnPublicSubnetAZ-${index}`, { exportName: `PublicSubnetAZ-${index}`, value: sub.availabilityZone });
+    });
+  }
+
+  public authenticateViaCognito(cognito: Cognito, appDnsName: string) {
+    const lbSg = this.loadBalancer.connections.securityGroups[0];
+    lbSg.addEgressRule(
+      Peer.anyIpv4(),
+      new Port({ protocol: Protocol.TCP, stringRepresentation: '443', fromPort: 443, toPort: 443 }),
+      'Outbound HTTPS traffic to get to Cognito',
+    );
+    // Allow 10 seconds for in flight requests before termination, the default of 5 minutes is much too high.
+    this.loadBalancedService.targetGroup.setAttribute('deregistration_delay.timeout_seconds', '10');
+    new CfnListenerRule(this, 'AuthenticateRule', {
+      actions: [
+        {
+          type: 'authenticate-cognito',
+          authenticateCognitoConfig: {
+            userPoolArn: cognito.userPool.userPoolArn,
+            userPoolClientId: cognito.userPoolClient.userPoolClientId,
+            userPoolDomain: cognito.userPoolDomain.domainName,
+          },
+          order: 1,
+        },
+        {
+          type: 'forward',
+          order: 100,
+          targetGroupArn: this.loadBalancedService.targetGroup.targetGroupArn,
+        },
+      ],
+      conditions: [
+        {
+          field: 'host-header',
+          hostHeaderConfig: {
+            values: [appDnsName],
+          },
+        },
+      ],
+      listenerArn: this.loadBalancedService.listener.listenerArn,
+      priority: 1000,
     });
   }
 }

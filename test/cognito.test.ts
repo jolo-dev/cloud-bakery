@@ -5,7 +5,7 @@ import { Cognito } from '../src/cognito';
 test( 'Cognito', () => {
   const stack = new Stack();
   new Cognito( stack, 'test',
-    { cognitoDomain: { domainPrefix: 'test-cognito-domain' } },
+    { domain: { cognitoDomain: { domainPrefix: 'test-cognito-domain' } } },
     { userPoolName: 'testUserPool' },
     { userPoolClientName: 'testUserPoolClientName' },
   );
