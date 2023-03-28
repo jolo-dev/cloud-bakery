@@ -1,5 +1,5 @@
 import { Construct, Stack, StackProps } from '@aws-cdk/core';
-import { CertificatesManager } from './certificatesManager';
+// import { CertificatesManager } from './certificatesManager';
 import { Cognito } from './cognito';
 import { LoadBalancedEcs } from './loadBalancedEcs';
 import { Resources } from './main';
@@ -20,9 +20,9 @@ export class CloudBakeryStack extends Stack {
       default:
         break;
     }
-    const certManager = new CertificatesManager(this, 'certificates-manager',
-      { zoneName: 'cloud-bakery.store', hostedZoneId: 'Z04625751OFTNM6DFI132' },
-      'cloud-bakery.store');
+    // const certManager = new CertificatesManager(this, 'certificates-manager',
+    //   { zoneName: 'cloud-bakery.store', hostedZoneId: 'Z04625751OFTNM6DFI132' },
+    //   'cloud-bakery.store');
     const lbe = new LoadBalancedEcs(this, 'loadbalanced-ecs',
       {
         clusterName: 'n8n-dev',
@@ -30,9 +30,9 @@ export class CloudBakeryStack extends Stack {
         imageName: 'n8nio/n8n',
         ports: [{ containerPort: 5678 }],
         loadBalancedEcsProps: {
-          domainName: certManager.appDnsName,
-          domainZone: certManager.hostedZone,
-          certificate: certManager.getDnsCertificate(),
+          // domainName: certManager.appDnsName,
+          // domainZone: certManager.hostedZone,
+          // certificate: certManager.getDnsCertificate(),
           authenticateViaCognito: true,
         },
       });
@@ -41,8 +41,8 @@ export class CloudBakeryStack extends Stack {
         'cognito',
         { domain: { cognitoDomain: { domainPrefix: 'n8n-dev' } } },
         {},
-        { oAuth: { callbackUrls: [`https://${certManager.appDnsName}/oauth2/idpresponse`] } });
-      lbe.authenticateViaCognito(cognito, certManager.appDnsName);
+        { oAuth: { callbackUrls: [`https://${lbe.loadBalancer.loadBalancerDnsName}/oauth2/idpresponse`] } });
+      lbe.authenticateViaCognito(cognito, lbe.loadBalancer.loadBalancerDnsName);
     }
 
   }

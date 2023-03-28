@@ -98,14 +98,14 @@ export class LoadBalancedEcs extends Construct {
     new CfnOutput(this, 'CfnLoadBalancerCanonicalHostedZoneId', { exportName: 'LoadBalancerCanonicalHostedZoneId', value: this.loadBalancedService.loadBalancer.loadBalancerCanonicalHostedZoneId });
     new CfnOutput(this, 'CfnListenerArn', { exportName: 'ListenerArn', value: this.loadBalancedService.listener.listenerArn });
     // VPC related information
-    new CfnOutput(this, 'CfnVpcId', { exportName: 'VpcId', value: this.loadBalancedService.loadBalancer.vpc.vpcId });
+    new CfnOutput(this, 'CfnVpcId', { exportName: 'VpcId', value: this.loadBalancedService.loadBalancer.vpc!.vpcId });
 
-    this.loadBalancedService.loadBalancer.vpc.privateSubnets.forEach((sub, index: number) => {
+    this.loadBalancedService.loadBalancer.vpc?.privateSubnets.forEach((sub, index: number) => {
       new CfnOutput(this, `CfnPrivateSubnetid-${index}`, { exportName: `PrivateSubnetId-${index}`, value: sub.subnetId });
       new CfnOutput(this, `CfnPrivateSubnetAZ-${index}`, { exportName: `PrivateSubnetAZ-${index}`, value: sub.availabilityZone });
     });
 
-    this.loadBalancedService.loadBalancer.vpc.publicSubnets.forEach((sub, index: number) => {
+    this.loadBalancedService.loadBalancer.vpc?.publicSubnets.forEach((sub, index: number) => {
       new CfnOutput(this, `CfnPublicSubnetid-${index}`, { exportName: `PublicSubnetId-${index}`, value: sub.subnetId });
       new CfnOutput(this, `CfnPublicSubnetAZ-${index}`, { exportName: `PublicSubnetAZ-${index}`, value: sub.availabilityZone });
     });
