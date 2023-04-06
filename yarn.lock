@@ -306,7 +306,7 @@
     "@aws-cdk/core" "1.198.1"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-cognito@1.198.0", "@aws-cdk/aws-cognito@^1.152.0":
+"@aws-cdk/aws-cognito@1.198.0":
   version "1.198.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cognito/-/aws-cognito-1.198.0.tgz#53f3b0d64c28c44147f736653b88e1da18754c33"
   integrity sha512-AGQc8F+grtdRmVID1Fn+1t8D2CqSuu2skkBxPbGG4M777yKQ/PPSkEzspSAQfNitsRO8yZEXymkXKSF6oMWFcw==
@@ -320,7 +320,7 @@
     constructs "^3.3.69"
     punycode "^2.3.0"
 
-"@aws-cdk/aws-cognito@1.198.1":
+"@aws-cdk/aws-cognito@1.198.1", "@aws-cdk/aws-cognito@^1.152.0":
   version "1.198.1"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cognito/-/aws-cognito-1.198.1.tgz#15e19121df71f5f739e45e4e6f57d738883e37a4"
   integrity sha512-3H+M0WN0BjYisVqwg0XXVX7Oz7CKgB9u6fcV/EVlBNokQU/xculF4SZ2z+qptVBGpFxWBnbC2m0qgtYFK5eCbQ==
@@ -6770,12 +6770,7 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-punycode@^2.1.0, punycode@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
-  integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
-punycode@^2.3.0:
+punycode@^2.1.0, punycode@^2.1.1, punycode@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
   integrity sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==
