@@ -3,13 +3,13 @@
 
 
 "@aws-cdk/assert@^1.152.0":
-  version "1.198.1"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-1.198.1.tgz#6221b0e0b59fb0ac6dffb3b75e84f282215abd01"
-  integrity sha512-9BjyKWrToNilPfzcxaHgZwMY1Z3Sr3pagQ5e+NzQEuVSyMO/EXsUYUp+2IIPCZ8qDtWCB7BC6N92kDnXviY/aQ==
+  version "1.200.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-1.200.0.tgz#1c5f3f3149fdbb05e1b41b98cc1565d92441fcaa"
+  integrity sha512-ljc9zAHmZy89O5dXEeAwlm5Sv5Hhm1LT207955PuAJJBVyP7LPkIVB6u4V496ewiR+Wr8LaDw3AlzrjxYJ81vQ==
   dependencies:
-    "@aws-cdk/cloudformation-diff" "1.198.1"
-    "@aws-cdk/core" "1.198.1"
-    "@aws-cdk/cx-api" "1.198.1"
+    "@aws-cdk/cloudformation-diff" "1.200.0"
+    "@aws-cdk/core" "1.200.0"
+    "@aws-cdk/cx-api" "1.200.0"
     constructs "^3.3.69"
 
 "@aws-cdk/assets@1.198.1":
@@ -1097,10 +1097,10 @@
     "@aws-cdk/core" "1.198.1"
     constructs "^3.3.69"
 
-"@aws-cdk/cfnspec@1.198.1":
-  version "1.198.1"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cfnspec/-/cfnspec-1.198.1.tgz#4a4f63ed830445c5f5513676ce7950de2588c794"
-  integrity sha512-5Wb5BPyl+VO+CBr21p7B8JTyZDLG5t7sNHiIY4bgROnkxyq982KRxXiuC2tXhORaSiUfak5SGuKZGri/TMgdJg==
+"@aws-cdk/cfnspec@1.200.0":
+  version "1.200.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cfnspec/-/cfnspec-1.200.0.tgz#12ab9102aea5425a33d4010722316236a735fa4f"
+  integrity sha512-G8cn/A+29GVSRckzUhazpMiGvZLnkzBOG6wCjzY9zH8sTFUGDrHwrq1esmHMDsqsSVqgo14krcWBAEaxuepmBA==
   dependencies:
     fs-extra "^9.1.0"
     md5 "^2.3.0"
@@ -1129,12 +1129,12 @@
     jsonschema "^1.4.1"
     semver "^7.3.8"
 
-"@aws-cdk/cloudformation-diff@1.198.1":
-  version "1.198.1"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cloudformation-diff/-/cloudformation-diff-1.198.1.tgz#858f022adc2dd0b19787c7f1438610981793541f"
-  integrity sha512-NM1xheHFKKQ5k7cId/aEmHHgJiYSWX4mEEEY3RXuUeW4A3/3NseY/axiTTZwKJ/iNtdDbneQYiPdvu5S4DrsmQ==
+"@aws-cdk/cloudformation-diff@1.200.0":
+  version "1.200.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cloudformation-diff/-/cloudformation-diff-1.200.0.tgz#2d636323e401f7f03d762a0ee779e76120e8b61b"
+  integrity sha512-31dMo0pQHz0Mpkvu15NbEX3oVp9EIoRJn9HLIaKJR70TbBHRv/wSxDCroxpNmp/oPyiJeymFaJsa+RsnP6Aj7w==
   dependencies:
-    "@aws-cdk/cfnspec" "1.198.1"
+    "@aws-cdk/cfnspec" "1.200.0"
     "@types/node" "^10.17.60"
     chalk "^4"
     diff "^5.1.0"
