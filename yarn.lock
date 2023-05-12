@@ -38,6 +38,14 @@
     "@aws-cdk/core" "1.200.0"
     constructs "^3.3.69"
 
+"@aws-cdk/aws-acmpca@1.201.0":
+  version "1.201.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-acmpca/-/aws-acmpca-1.201.0.tgz#70cafa14639957edefbabdfbd51ae71a77fc99bc"
+  integrity sha512-+phm7cHvmpe4EG+2vvjtPKPfEj24oNFAeCR3BaPj2NcVBpCLHiHajf6y9y4EumDXkmJwW+eWUNJXOkJCWBtI7g==
+  dependencies:
+    "@aws-cdk/core" "1.201.0"
+    constructs "^3.3.69"
+
 "@aws-cdk/aws-apigateway@1.200.0":
   version "1.200.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigateway/-/aws-apigateway-1.200.0.tgz#a49c9f0ac90c12491dfc68392234bdeb195285f3"
@@ -128,7 +136,7 @@
     "@aws-cdk/core" "1.200.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-certificatemanager@1.200.0", "@aws-cdk/aws-certificatemanager@^1.152.0":
+"@aws-cdk/aws-certificatemanager@1.200.0":
   version "1.200.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-certificatemanager/-/aws-certificatemanager-1.200.0.tgz#62df5ddd16a8d4cec134ed4d6c0e76ac6ca421f4"
   integrity sha512-P7/GIzDMItXe/0dYqS/Y0CmirI6txxUiq/qQ/CHP4dZoTDJiIiAmBRFyfiRs+oHbSSX0iHnslFnlBkwQco8Zvw==
@@ -139,6 +147,19 @@
     "@aws-cdk/aws-lambda" "1.200.0"
     "@aws-cdk/aws-route53" "1.200.0"
     "@aws-cdk/core" "1.200.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-certificatemanager@^1.152.0":
+  version "1.201.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-certificatemanager/-/aws-certificatemanager-1.201.0.tgz#e7bb63e496a3a9b192dbe648ba0109a80f0d18f0"
+  integrity sha512-ofKM11RLgp3fIIzvwEs6ADoZ/Chu3/DqN9CFyLhNWpf7COdha8ZKqW//8+HRGUqHMguPLUMoHwCTFBumVlBmWw==
+  dependencies:
+    "@aws-cdk/aws-acmpca" "1.201.0"
+    "@aws-cdk/aws-cloudwatch" "1.201.0"
+    "@aws-cdk/aws-iam" "1.201.0"
+    "@aws-cdk/aws-lambda" "1.201.0"
+    "@aws-cdk/aws-route53" "1.201.0"
+    "@aws-cdk/core" "1.201.0"
     constructs "^3.3.69"
 
 "@aws-cdk/aws-cloudformation@1.200.0":
@@ -737,7 +758,7 @@
     "@aws-cdk/custom-resources" "1.200.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-route53@^1.152.0":
+"@aws-cdk/aws-route53@1.201.0", "@aws-cdk/aws-route53@^1.152.0":
   version "1.201.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-route53/-/aws-route53-1.201.0.tgz#6414d17a77ee8a049d90fa87b88d7359ccbf867e"
   integrity sha512-Ryyz1mO4iYKxupyzhoIC+V+tN7zge5qzQ3HMaq1Vtr4Nl3b6HbCY0/L04ZxJTFudJEGC0/7S1txFWER8oBjDMg==
