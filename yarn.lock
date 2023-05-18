@@ -306,7 +306,7 @@
     "@aws-cdk/core" "1.201.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-cognito@1.200.0", "@aws-cdk/aws-cognito@^1.152.0":
+"@aws-cdk/aws-cognito@1.200.0":
   version "1.200.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cognito/-/aws-cognito-1.200.0.tgz#ab54a787e9a63e259f36d166f0706dc697870f5e"
   integrity sha512-pue+uS1CHDjz9Mi7b+XRNZ8FXv0/94H3gzu7RyH0NZLaeISswydp549vOGa3nnr4YjVanL5kzED+ZpSSzpVW8w==
@@ -317,6 +317,20 @@
     "@aws-cdk/aws-lambda" "1.200.0"
     "@aws-cdk/core" "1.200.0"
     "@aws-cdk/custom-resources" "1.200.0"
+    constructs "^3.3.69"
+    punycode "^2.3.0"
+
+"@aws-cdk/aws-cognito@1.201.0", "@aws-cdk/aws-cognito@^1.152.0":
+  version "1.201.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cognito/-/aws-cognito-1.201.0.tgz#d43e0bb1f6b3e11dfa79458eac42a2ed524af6fa"
+  integrity sha512-eBuN+PFg1TtN4VeOftUSs+kZ/Pa8geT7DnAjiCGkfUquDTLp9/kMB5/Y5/ciU9sVdzm6A5SsL/3m96ValchmFg==
+  dependencies:
+    "@aws-cdk/aws-certificatemanager" "1.201.0"
+    "@aws-cdk/aws-iam" "1.201.0"
+    "@aws-cdk/aws-kms" "1.201.0"
+    "@aws-cdk/aws-lambda" "1.201.0"
+    "@aws-cdk/core" "1.201.0"
+    "@aws-cdk/custom-resources" "1.201.0"
     constructs "^3.3.69"
     punycode "^2.3.0"
 
@@ -494,15 +508,15 @@
     constructs "^3.3.69"
 
 "@aws-cdk/aws-elasticloadbalancingv2-actions@^1.152.0":
-  version "1.200.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-elasticloadbalancingv2-actions/-/aws-elasticloadbalancingv2-actions-1.200.0.tgz#d6bad07a8729784e7ae40c1d4cf9337dd242ea72"
-  integrity sha512-NG9ixpFq1lJfnjZkXeEEtGXb8jmvlTzdbXWMIqi3AWgSRBKLmIur4yCLVJJF6l3x8HpCV4cuSkdJcTZBf2LILA==
+  version "1.201.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-elasticloadbalancingv2-actions/-/aws-elasticloadbalancingv2-actions-1.201.0.tgz#dea1c9e9b4ec6c2d2e36638f4f5ab7faa061cb60"
+  integrity sha512-e1EPn7N2TWj7T8ucdc7cg47b+kjUt4cE1XE6xdHpqRZ0phbXtX0KCysEohR0EnTmsbMAnAmd5EXLmmACuMD6Rw==
   dependencies:
-    "@aws-cdk/aws-cognito" "1.200.0"
-    "@aws-cdk/aws-ec2" "1.200.0"
-    "@aws-cdk/aws-elasticloadbalancingv2" "1.200.0"
-    "@aws-cdk/aws-iam" "1.200.0"
-    "@aws-cdk/core" "1.200.0"
+    "@aws-cdk/aws-cognito" "1.201.0"
+    "@aws-cdk/aws-ec2" "1.201.0"
+    "@aws-cdk/aws-elasticloadbalancingv2" "1.201.0"
+    "@aws-cdk/aws-iam" "1.201.0"
+    "@aws-cdk/core" "1.201.0"
     constructs "^3.3.69"
 
 "@aws-cdk/aws-elasticloadbalancingv2@1.200.0":
@@ -523,7 +537,7 @@
     "@aws-cdk/region-info" "1.200.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-elasticloadbalancingv2@^1.152.0":
+"@aws-cdk/aws-elasticloadbalancingv2@1.201.0", "@aws-cdk/aws-elasticloadbalancingv2@^1.152.0":
   version "1.201.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-elasticloadbalancingv2/-/aws-elasticloadbalancingv2-1.201.0.tgz#40fff489932533416db888faee177acad7d3150c"
   integrity sha512-W7+W/4obkzz/yY+7A1RIi7C1s/Pcmgk+TP7ZvQndAu7E/+Tfs7IpTYeJXcnwi0H3aRPJR3v5lxoxxQAnm/Jmfw==
