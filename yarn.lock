@@ -306,7 +306,7 @@
     "@aws-cdk/core" "1.202.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-cognito@1.201.0", "@aws-cdk/aws-cognito@^1.152.0":
+"@aws-cdk/aws-cognito@1.201.0":
   version "1.201.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cognito/-/aws-cognito-1.201.0.tgz#d43e0bb1f6b3e11dfa79458eac42a2ed524af6fa"
   integrity sha512-eBuN+PFg1TtN4VeOftUSs+kZ/Pa8geT7DnAjiCGkfUquDTLp9/kMB5/Y5/ciU9sVdzm6A5SsL/3m96ValchmFg==
@@ -320,7 +320,7 @@
     constructs "^3.3.69"
     punycode "^2.3.0"
 
-"@aws-cdk/aws-cognito@1.202.0":
+"@aws-cdk/aws-cognito@1.202.0", "@aws-cdk/aws-cognito@^1.152.0":
   version "1.202.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cognito/-/aws-cognito-1.202.0.tgz#0ab419f1377638cda452703b98f082da3602cf93"
   integrity sha512-Y6l04AUkHAnxjgKI3lszj/lR7H/Geyv/Tt3nIgwmlFcYUdn5z/9OQQ6uGIrQM8BOATmBtLZQUjFoEld9DQnTPA==
