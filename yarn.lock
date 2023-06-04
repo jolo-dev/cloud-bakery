@@ -2790,9 +2790,9 @@ available-typed-arrays@^1.0.5:
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
 aws-cdk@^1.152.0:
-  version "1.202.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-1.202.0.tgz#0eb816c9f61bff1b4f451ad9fcfb34583cc5f9a5"
-  integrity sha512-EV87gHzI2ZXbxqsg8EIg+0BmTImsY1hRaOnwHq41+fKScR/d3ysNWFcd5w2H+IV2Gy495ioQEMC7Li2nFH/e9w==
+  version "1.203.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-1.203.0.tgz#0c6e8ff0d081fdb94c46585181d9742326a10e37"
+  integrity sha512-9nghEa+JGzh7LEz2Yl2q4v+76Uf+Y4A4Pa38PSsNgI0jAwnBAz5NaC3MB4Tdzd5szSfQuS72u5Uuxh6Lz1H0ow==
   optionalDependencies:
     fsevents "2.3.2"
 
