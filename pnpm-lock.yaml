@@ -6,22 +6,22 @@ dependencies:
     version: 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)(jest@26.6.3)
   '@aws-cdk/aws-certificatemanager':
     specifier: ^1.152.0
-    version: 1.152.0(@aws-cdk/aws-acmpca@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
+    version: 1.203.0(@aws-cdk/aws-acmpca@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
   '@aws-cdk/aws-cognito':
     specifier: ^1.152.0
-    version: 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
+    version: 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
   '@aws-cdk/aws-ec2':
     specifier: ^1.152.0
     version: 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
   '@aws-cdk/aws-ecs':
     specifier: ^1.152.0
-    version: 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling-hooktargets@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-secretsmanager@1.152.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
+    version: 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling-hooktargets@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-secretsmanager@1.152.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
   '@aws-cdk/aws-ecs-patterns':
     specifier: ^1.152.0
-    version: 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecs@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-events-targets@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
+    version: 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecs@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-events-targets@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
   '@aws-cdk/aws-elasticloadbalancingv2':
     specifier: ^1.152.0
-    version: 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
+    version: 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
   '@aws-cdk/aws-elasticloadbalancingv2-actions':
     specifier: ^1.152.0
     version: 1.152.0(@aws-cdk/aws-cognito@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
@@ -156,18 +156,18 @@ packages:
       constructs: 3.3.269
     dev: false
 
-  /@aws-cdk/aws-acmpca@1.152.0(@aws-cdk/core@1.203.0)(constructs@3.3.269):
-    resolution: {integrity: sha512-ZQKQSBF0T2Bs9JOVR4VIUDx+hqVeC/L1+guyeqCaMbqenNeA2hKw0JrqAPd6NSxwSXSr/kpi4shOjeR1MpEMjw==}
-    engines: {node: '>= 10.13.0 <13 || >=13.7.0'}
+  /@aws-cdk/aws-acmpca@1.203.0(@aws-cdk/core@1.203.0)(constructs@3.3.269):
+    resolution: {integrity: sha512-0+7de1E0JxTjPe8pm73Io3WAEC9pvEjdKmNYwXApYCslqlFqBOuHjU9pQh++6cYcUWCMmav1iwM9zqCB6ZVRSQ==}
+    engines: {node: '>= 14.15.0'}
     peerDependencies:
-      '@aws-cdk/core': 1.152.0
+      '@aws-cdk/core': 1.203.0
       constructs: ^3.3.69
     dependencies:
       '@aws-cdk/core': 1.203.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       constructs: 3.3.269
     dev: false
 
-  /@aws-cdk/aws-apigateway@1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-cognito@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-stepfunctions@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269):
+  /@aws-cdk/aws-apigateway@1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-cognito@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-stepfunctions@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269):
     resolution: {integrity: sha512-ZYG13EtH0+cbBp+NbHvAF2RGUP4HG5f5/VW3JJ6iZcm2+jpRcjgFedRWFGGpUwm3fF86y1CjJ/3VtvfM66Bb0g==}
     engines: {node: '>= 10.13.0 <13 || >=13.7.0'}
     peerDependencies:
@@ -186,11 +186,11 @@ packages:
       '@aws-cdk/cx-api': 1.152.0
       constructs: ^3.3.69
     dependencies:
-      '@aws-cdk/aws-certificatemanager': 1.152.0(@aws-cdk/aws-acmpca@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
+      '@aws-cdk/aws-certificatemanager': 1.203.0(@aws-cdk/aws-acmpca@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-cloudwatch': 1.152.0(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
-      '@aws-cdk/aws-cognito': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-cognito': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-ec2': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
-      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-lambda': 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-codeguruprofiler@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-efs@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-signer@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-logs': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
@@ -275,26 +275,26 @@ packages:
       '@aws-cdk/aws-cloudwatch': 1.152.0(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-ec2': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-elasticloadbalancing': 1.152.0(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
-      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-sns': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-codestarnotifications@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/core': 1.203.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       constructs: 3.3.269
     dev: false
 
-  /@aws-cdk/aws-certificatemanager@1.152.0(@aws-cdk/aws-acmpca@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269):
-    resolution: {integrity: sha512-YnW9kv4o3WmGsU1YYQ6eCUO3M4QLjQumDhVkEucxTRGIDXQUcBhUZ3yKQaKQ3i1bPGaILTffcg7oeeM7n5/Fmw==}
-    engines: {node: '>= 10.13.0 <13 || >=13.7.0'}
+  /@aws-cdk/aws-certificatemanager@1.203.0(@aws-cdk/aws-acmpca@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269):
+    resolution: {integrity: sha512-P/xgE5oF623T9NIlTRfTwX6zR41ae2C+YAVOpGlI4X8ZnjB219LGZd7VhAIu6A6qv38ZQE2erYaXHe39nIFEFg==}
+    engines: {node: '>= 14.15.0'}
     peerDependencies:
-      '@aws-cdk/aws-acmpca': 1.152.0
-      '@aws-cdk/aws-cloudwatch': 1.152.0
-      '@aws-cdk/aws-iam': 1.152.0
-      '@aws-cdk/aws-lambda': 1.152.0
-      '@aws-cdk/aws-route53': 1.152.0
-      '@aws-cdk/core': 1.152.0
+      '@aws-cdk/aws-acmpca': 1.203.0
+      '@aws-cdk/aws-cloudwatch': 1.203.0
+      '@aws-cdk/aws-iam': 1.203.0
+      '@aws-cdk/aws-lambda': 1.203.0
+      '@aws-cdk/aws-route53': 1.203.0
+      '@aws-cdk/core': 1.203.0
       constructs: ^3.3.69
     dependencies:
-      '@aws-cdk/aws-acmpca': 1.152.0(@aws-cdk/core@1.203.0)(constructs@3.3.269)
+      '@aws-cdk/aws-acmpca': 1.203.0(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-cloudwatch': 1.152.0(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-lambda': 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-codeguruprofiler@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-efs@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-signer@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
@@ -324,7 +324,7 @@ packages:
       constructs: 3.3.269
     dev: false
 
-  /@aws-cdk/aws-cloudfront@1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269):
+  /@aws-cdk/aws-cloudfront@1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269):
     resolution: {integrity: sha512-9tBIRfIvtf58DSB54dDleWC5RkJhC6A9l/t6uzOuprpgklYR0iLmKjqAB08L99RBvvfsdQhwdbcP7ISEmtGUrA==}
     engines: {node: '>= 10.13.0 <13 || >=13.7.0'}
     peerDependencies:
@@ -340,7 +340,7 @@ packages:
       '@aws-cdk/cx-api': 1.152.0
       constructs: ^3.3.69
     dependencies:
-      '@aws-cdk/aws-certificatemanager': 1.152.0(@aws-cdk/aws-acmpca@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
+      '@aws-cdk/aws-certificatemanager': 1.203.0(@aws-cdk/aws-acmpca@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-cloudwatch': 1.152.0(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-ec2': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
@@ -473,7 +473,7 @@ packages:
       constructs: 3.3.269
     dev: false
 
-  /@aws-cdk/aws-cognito@1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269):
+  /@aws-cdk/aws-cognito@1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269):
     resolution: {integrity: sha512-aVxUXmonew0L36cYBdAv1oIZDr1gmstEcVg6eezt2ovsg5Wpn7cA6JI2YqcNvsccHs2mIOpS3p7MH6IIQrvvnQ==}
     engines: {node: '>= 10.13.0 <13 || >=13.7.0'}
     peerDependencies:
@@ -485,7 +485,7 @@ packages:
       '@aws-cdk/custom-resources': 1.152.0
       constructs: ^3.3.69
     dependencies:
-      '@aws-cdk/aws-certificatemanager': 1.152.0(@aws-cdk/aws-acmpca@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
+      '@aws-cdk/aws-certificatemanager': 1.203.0(@aws-cdk/aws-acmpca@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-kms': 1.152.0(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-lambda': 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-codeguruprofiler@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-efs@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-signer@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
@@ -566,7 +566,7 @@ packages:
       constructs: 3.3.269
     dev: false
 
-  /@aws-cdk/aws-ecs-patterns@1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecs@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-events-targets@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269):
+  /@aws-cdk/aws-ecs-patterns@1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecs@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-events-targets@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269):
     resolution: {integrity: sha512-H6HPiajMLSb1kTReCwioCo+tO+yzIdOsfweJEcsyyL0L7WIkuo7+zcKr1muuQIlRiuWreZAnvVBwCR6Vtz9PGA==}
     engines: {node: '>= 10.13.0 <13 || >=13.7.0'}
     peerDependencies:
@@ -589,10 +589,10 @@ packages:
     dependencies:
       '@aws-cdk/aws-applicationautoscaling': 1.152.0(@aws-cdk/aws-autoscaling-common@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-autoscaling': 1.152.0(@aws-cdk/aws-autoscaling-common@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
-      '@aws-cdk/aws-certificatemanager': 1.152.0(@aws-cdk/aws-acmpca@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
+      '@aws-cdk/aws-certificatemanager': 1.203.0(@aws-cdk/aws-acmpca@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-ec2': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
-      '@aws-cdk/aws-ecs': 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling-hooktargets@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-secretsmanager@1.152.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
-      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-ecs': 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling-hooktargets@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-secretsmanager@1.152.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-events': 1.152.0(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-events-targets': 1.152.0(@aws-cdk/aws-apigateway@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-codebuild@1.152.0)(@aws-cdk/aws-codepipeline@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecs@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kinesis@1.152.0)(@aws-cdk/aws-kinesisfirehose@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-sns-subscriptions@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/aws-stepfunctions@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
@@ -605,7 +605,7 @@ packages:
       constructs: 3.3.269
     dev: false
 
-  /@aws-cdk/aws-ecs@1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling-hooktargets@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-secretsmanager@1.152.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269):
+  /@aws-cdk/aws-ecs@1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling-hooktargets@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-secretsmanager@1.152.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269):
     resolution: {integrity: sha512-C7aHrIj4XMwFbI1WGHENVKNDp290O7/JFwmthzEKEB/FiPE1UrKEsr0AVlX9o9/PVCrRCZH1WnmqcmO9X2uIdA==}
     engines: {node: '>= 10.13.0 <13 || >=13.7.0'}
     peerDependencies:
@@ -639,13 +639,13 @@ packages:
       '@aws-cdk/aws-applicationautoscaling': 1.152.0(@aws-cdk/aws-autoscaling-common@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-autoscaling': 1.152.0(@aws-cdk/aws-autoscaling-common@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-autoscaling-hooktargets': 1.152.0(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-sns-subscriptions@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
-      '@aws-cdk/aws-certificatemanager': 1.152.0(@aws-cdk/aws-acmpca@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
+      '@aws-cdk/aws-certificatemanager': 1.203.0(@aws-cdk/aws-acmpca@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-cloudwatch': 1.152.0(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-ec2': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-ecr': 1.152.0(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-ecr-assets': 1.152.0(@aws-cdk/assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-elasticloadbalancing': 1.152.0(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
-      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-kms': 1.152.0(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-lambda': 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-codeguruprofiler@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-efs@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-signer@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
@@ -709,15 +709,15 @@ packages:
       '@aws-cdk/core': 1.152.0
       constructs: ^3.3.69
     dependencies:
-      '@aws-cdk/aws-cognito': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-cognito': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-ec2': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
-      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/core': 1.203.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       constructs: 3.3.269
     dev: false
 
-  /@aws-cdk/aws-elasticloadbalancingv2@1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269):
+  /@aws-cdk/aws-elasticloadbalancingv2@1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269):
     resolution: {integrity: sha512-deSJUGZmrmoc7avcInGfFTnoj60yVj+wYmAjE6AgeE9WV6VM74QMSzSoQfX6ZkBDvBLTA4hVFa2BBmuyJbzz0g==}
     engines: {node: '>= 10.13.0 <13 || >=13.7.0'}
     peerDependencies:
@@ -733,7 +733,7 @@ packages:
       '@aws-cdk/region-info': 1.152.0
       constructs: ^3.3.69
     dependencies:
-      '@aws-cdk/aws-certificatemanager': 1.152.0(@aws-cdk/aws-acmpca@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
+      '@aws-cdk/aws-certificatemanager': 1.203.0(@aws-cdk/aws-acmpca@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-cloudwatch': 1.152.0(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-ec2': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
@@ -771,12 +771,12 @@ packages:
       '@aws-cdk/custom-resources': 1.152.0
       constructs: ^3.3.69
     dependencies:
-      '@aws-cdk/aws-apigateway': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-cognito@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-stepfunctions@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-apigateway': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-cognito@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-stepfunctions@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-autoscaling': 1.152.0(@aws-cdk/aws-autoscaling-common@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-codebuild': 1.152.0(@aws-cdk/assets@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-codecommit@1.152.0)(@aws-cdk/aws-codestarnotifications@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-secretsmanager@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-codepipeline': 1.152.0(@aws-cdk/aws-codestarnotifications@1.152.0)(@aws-cdk/aws-events@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-ec2': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
-      '@aws-cdk/aws-ecs': 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling-hooktargets@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-secretsmanager@1.152.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-ecs': 1.152.0(@aws-cdk/aws-applicationautoscaling@1.152.0)(@aws-cdk/aws-autoscaling-hooktargets@1.152.0)(@aws-cdk/aws-autoscaling@1.152.0)(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-ecr-assets@1.152.0)(@aws-cdk/aws-ecr@1.152.0)(@aws-cdk/aws-elasticloadbalancing@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-route53-targets@1.152.0)(@aws-cdk/aws-route53@1.203.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-secretsmanager@1.152.0)(@aws-cdk/aws-servicediscovery@1.152.0)(@aws-cdk/aws-sns@1.152.0)(@aws-cdk/aws-sqs@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-events': 1.152.0(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-kinesis': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
@@ -988,12 +988,12 @@ packages:
       '@aws-cdk/region-info': 1.152.0
       constructs: ^3.3.69
     dependencies:
-      '@aws-cdk/aws-apigateway': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-cognito@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-stepfunctions@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
-      '@aws-cdk/aws-cloudfront': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
-      '@aws-cdk/aws-cognito': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-apigateway': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-cognito@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-elasticloadbalancingv2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-stepfunctions@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-cloudfront': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-cognito': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-ec2': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-elasticloadbalancing': 1.152.0(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/core@1.203.0)(constructs@3.3.269)
-      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-globalaccelerator': 1.152.0(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-iam': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-route53': 1.203.0(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
@@ -1109,7 +1109,7 @@ packages:
       constructs: ^3.3.69
     dependencies:
       '@aws-cdk/aws-ec2': 1.152.0(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-kms@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/aws-s3-assets@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/aws-ssm@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
-      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.152.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
+      '@aws-cdk/aws-elasticloadbalancingv2': 1.152.0(@aws-cdk/aws-certificatemanager@1.203.0)(@aws-cdk/aws-cloudwatch@1.152.0)(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-lambda@1.152.0)(@aws-cdk/aws-s3@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       '@aws-cdk/aws-route53': 1.203.0(@aws-cdk/aws-ec2@1.152.0)(@aws-cdk/aws-iam@1.152.0)(@aws-cdk/aws-logs@1.152.0)(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/core@1.203.0)(@aws-cdk/custom-resources@1.152.0)(constructs@3.3.269)
       '@aws-cdk/core': 1.203.0(@aws-cdk/cloud-assembly-schema@1.152.0)(@aws-cdk/cx-api@1.152.0)(@aws-cdk/region-info@1.152.0)(constructs@3.3.269)
       constructs: 3.3.269
@@ -1265,7 +1265,11 @@ packages:
       '@aws-cdk/cloud-assembly-schema': 1.152.0
       '@aws-cdk/cx-api': 1.152.0(@aws-cdk/cloud-assembly-schema@1.152.0)
       '@aws-cdk/region-info': 1.152.0
+      '@balena/dockerignore': 1.0.2
       constructs: 3.3.269
+      fs-extra: 9.1.0
+      ignore: 5.2.4
+      minimatch: 3.1.2
     dev: false
     bundledDependencies:
       - fs-extra
@@ -2254,6 +2258,10 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.16.7
       to-fast-properties: 2.0.0
+
+  /@balena/dockerignore@1.0.2:
+    resolution: {integrity: sha512-wMue2Sy4GAVTk6Ic4tJVcnfdau+gx2EnG7S+uAEe+TWJFqE4YoWN4/H8MSLj4eYJKxGg26lZwboEniNiNwZQ6Q==}
+    dev: false
 
   /@bcoe/v8-coverage@0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
@@ -3333,7 +3341,7 @@ packages:
     resolution: {integrity: sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==}
 
   /concat-map@0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   /concat-stream@2.0.0:
     resolution: {integrity: sha512-MWufYdFw53ccGjCA+Ol7XJYpAlW6/prSMzuPOTRnJGcGzuhLn4Scrz7qf6o8bROZ514ltazcIFJZevcfbo0x7A==}
@@ -4437,7 +4445,7 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.2.11
-      ignore: 5.2.0
+      ignore: 5.2.4
       merge2: 1.4.1
       slash: 3.0.0
     dev: true
@@ -4591,6 +4599,10 @@ packages:
     resolution: {integrity: sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==}
     engines: {node: '>= 4'}
     dev: true
+
+  /ignore@5.2.4:
+    resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
+    engines: {node: '>= 4'}
 
   /import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
