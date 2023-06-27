@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@aws-cdk/assert':
     specifier: ^1.152.0
@@ -86,7 +90,7 @@ devDependencies:
     version: 7.32.0
   eslint-import-resolver-node:
     specifier: ^0.3.6
-    version: 0.3.6
+    version: 0.3.7
   eslint-import-resolver-typescript:
     specifier: ^2.7.1
     version: 2.7.1(eslint-plugin-import@2.26.0)(eslint@7.32.0)
@@ -4434,11 +4438,12 @@ packages:
     optionalDependencies:
       source-map: 0.6.1
 
-  /eslint-import-resolver-node@0.3.6:
-    resolution: {integrity: sha512-0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==}
+  /eslint-import-resolver-node@0.3.7:
+    resolution: {integrity: sha512-gozW2blMLJCeFpBwugLTGyvVjNoeo1knonXAcatC6bjPBZitotxdWf7Gimr25N4c0AAOo4eOUfaG82IJPDpqCA==}
     dependencies:
       debug: 3.2.7
-      resolve: 1.22.0
+      is-core-module: 2.12.1
+      resolve: 1.22.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4461,7 +4466,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-module-utils@2.7.3(@typescript-eslint/parser@4.33.0)(eslint-import-resolver-node@0.3.6)(eslint-import-resolver-typescript@2.7.1):
+  /eslint-module-utils@2.7.3(@typescript-eslint/parser@4.33.0)(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@2.7.1):
     resolution: {integrity: sha512-088JEC7O3lDZM9xGe0RerkOMd0EjFl+Yvd1jPWIkMT5u3H9+HC34mWWPnqPrN13gieT9pBOO+Qt07Nb/6TresQ==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -4481,7 +4486,7 @@ packages:
     dependencies:
       '@typescript-eslint/parser': 4.33.0(eslint@7.32.0)(typescript@4.6.3)
       debug: 3.2.7
-      eslint-import-resolver-node: 0.3.6
+      eslint-import-resolver-node: 0.3.7
       eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.26.0)(eslint@7.32.0)
       find-up: 2.1.0
     transitivePeerDependencies:
@@ -4504,8 +4509,8 @@ packages:
       debug: 2.6.9
       doctrine: 2.1.0
       eslint: 7.32.0
-      eslint-import-resolver-node: 0.3.6
-      eslint-module-utils: 2.7.3(@typescript-eslint/parser@4.33.0)(eslint-import-resolver-node@0.3.6)(eslint-import-resolver-typescript@2.7.1)
+      eslint-import-resolver-node: 0.3.7
+      eslint-module-utils: 2.7.3(@typescript-eslint/parser@4.33.0)(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@2.7.1)
       has: 1.0.3
       is-core-module: 2.8.1
       is-glob: 4.0.3
@@ -5323,10 +5328,16 @@ packages:
     dependencies:
       ci-info: 2.0.0
 
+  /is-core-module@2.12.1:
+    resolution: {integrity: sha512-Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==}
+    dependencies:
+      has: 1.0.3
+
   /is-core-module@2.8.1:
     resolution: {integrity: sha512-SdNCUs284hr40hFTFP6l0IfZ/RSrMXF3qgoRHd3/79unUTvrFO/JoXwkGm+5J/Oe3E/b5GsnG330uUNgRpu1PA==}
     dependencies:
       has: 1.0.3
+    dev: true
 
   /is-data-descriptor@0.1.4:
     resolution: {integrity: sha1-C17mSDiOLIYCgueT8YVv7D8wG1Y=}
@@ -5838,7 +5849,7 @@ packages:
       jest-pnp-resolver: 1.2.2(jest-resolve@26.6.2)
       jest-util: 26.6.2
       read-pkg-up: 7.0.1
-      resolve: 1.22.0
+      resolve: 1.22.2
       slash: 3.0.0
 
   /jest-runner@26.6.3(ts-node@9.1.1):
@@ -6374,7 +6385,7 @@ packages:
     dev: true
 
   /ms@2.0.0:
-    resolution: {integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=}
+    resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
 
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
@@ -6436,7 +6447,7 @@ packages:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.22.0
+      resolve: 1.22.2
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
 
@@ -6445,7 +6456,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       hosted-git-info: 4.1.0
-      is-core-module: 2.8.1
+      is-core-module: 2.12.1
       semver: 7.5.3
       validate-npm-package-license: 3.0.4
     dev: true
@@ -6892,7 +6903,7 @@ packages:
     resolution: {integrity: sha512-HFM8rkZ+i3zrV+4LQjwQ0W+ez98pApMGM3HUrN04j3CqzPOzl9nmP15Y8YXNm8QHGv/eacOVEjqhmWpkRV0NAw==}
     engines: {node: '>= 0.10'}
     dependencies:
-      resolve: 1.22.0
+      resolve: 1.22.2
     dev: true
 
   /redent@3.0.0:
@@ -6960,7 +6971,16 @@ packages:
     resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
     hasBin: true
     dependencies:
-      is-core-module: 2.8.1
+      is-core-module: 2.12.1
+      path-parse: 1.0.7
+      supports-preserve-symlinks-flag: 1.0.0
+    dev: true
+
+  /resolve@1.22.2:
+    resolution: {integrity: sha512-Sb+mjNHOULsBv818T40qSPeRiuWLyaGMa5ewydRLFimneixmVy2zdivRl+AF6jaYPC8ERxGDmFSiqui6SfPd+g==}
+    hasBin: true
+    dependencies:
+      is-core-module: 2.12.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
