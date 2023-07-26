@@ -40,7 +40,7 @@ dependencies:
     version: 3.363.0
   '@aws-sdk/client-route-53':
     specifier: ^3.72.0
-    version: 3.370.0
+    version: 3.377.0
   '@types/inquirer':
     specifier: ^7.3.3
     version: 7.3.3
@@ -1417,13 +1417,13 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-sdk/client-route-53@3.370.0:
-    resolution: {integrity: sha512-jLmeUxkkRuA+1qEoFIECvxrI80QQWbnbpe+FWmnld+hS487IdsYaZ4swv0DHGchcuJsn2NbvQ1KWNoNL4kaLJA==}
+  /@aws-sdk/client-route-53@3.377.0:
+    resolution: {integrity: sha512-YFhGCygD5lGQJqCM6GFIk9H9cQq4IbwolddM9Sob8x7z8oTPb9OK6rqyydjo1PkpvvFpMVChoMkrsPW+b3PFQg==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.370.0
+      '@aws-sdk/client-sts': 3.377.0
       '@aws-sdk/credential-provider-node': 3.370.0
       '@aws-sdk/middleware-host-header': 3.370.0
       '@aws-sdk/middleware-logger': 3.370.0
@@ -1674,8 +1674,8 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-sdk/client-sts@3.370.0:
-    resolution: {integrity: sha512-utFxOPWIzbN+3kc415Je2o4J72hOLNhgR2Gt5EnRSggC3yOnkC4GzauxG8n7n5gZGBX45eyubHyPOXLOIyoqQA==}
+  /@aws-sdk/client-sts@3.377.0:
+    resolution: {integrity: sha512-K/yTHxVtTIwU42qCxbv78eT74j+GZMCcQ5TUd2fwxEWeq8HcIWcTIhujv7F6UtdrQHrou20wZ/+jMQtVKfkXXQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
