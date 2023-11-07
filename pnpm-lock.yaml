@@ -40,7 +40,7 @@ dependencies:
     version: 3.427.0
   '@aws-sdk/client-route-53':
     specifier: ^3.72.0
-    version: 3.441.0
+    version: 3.444.0
   '@types/inquirer':
     specifier: ^7.3.3
     version: 7.3.3
@@ -1418,8 +1418,8 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-sdk/client-route-53@3.441.0:
-    resolution: {integrity: sha512-s9IYToJId7cH3INKepDGFcLY4mDOOwsKEKCMogM9rOualAc1DHheXwaLevO6gQynYEC4tP05afIB+LRf/cJdBg==}
+  /@aws-sdk/client-route-53@3.444.0:
+    resolution: {integrity: sha512-uK1ouxSbyuI+2jXznrJqEwyyIPwogMO2pEAG5+DJcp4D+vXTuWQfDYtakIfIsoEMlAEtECPUMSUCu359goL+JQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
