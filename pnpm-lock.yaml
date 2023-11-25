@@ -69,7 +69,7 @@ devDependencies:
     version: 0.1.4
   '@types/figlet':
     specifier: ^1.5.4
-    version: 1.5.7
+    version: 1.5.8
   '@types/jest':
     specifier: ^26.0.24
     version: 26.0.24
@@ -3620,8 +3620,8 @@ packages:
     resolution: {integrity: sha512-4nJjoilJPTbYF7Q4y5+F7JFDK8QdcwOItzwVv3RDEMWALT9Mx9UzfxCiUfpbFK05REhieXTCvhbNkiDW/Wfejw==}
     dev: true
 
-  /@types/figlet@1.5.7:
-    resolution: {integrity: sha512-0+XwDLeH346mAl3fmw/AaEctBrhkcJl0wZezoNUQ5Tg6J5YW7xL2v9hH3Yg5L4dk/sogEdQexTrNncqjGKwoVw==}
+  /@types/figlet@1.5.8:
+    resolution: {integrity: sha512-G22AUvy4Tl95XLE7jmUM8s8mKcoz+Hr+Xm9W90gJsppJq9f9tHvOGkrpn4gRX0q/cLtBdNkWtWCKDg2UDZoZvQ==}
     dev: true
 
   /@types/graceful-fs@4.1.5:
