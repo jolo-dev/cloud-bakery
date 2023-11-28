@@ -1371,15 +1371,15 @@
     tslib "^1.11.1"
 
 "@aws-sdk/client-acm@^3.72.0":
-  version "3.454.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-acm/-/client-acm-3.454.0.tgz#cf9d703debcc4cd1ce18aec2fbdf5ad9be8d42bc"
-  integrity sha512-dYRhmLZTuyDkwQB6/OE4tT8FnvW4GvFI5JEL4r6xTJbccHVOSyfq+yStayCRZUb807DMJgVlOVlY4MBrUUqe0g==
+  version "3.458.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-acm/-/client-acm-3.458.0.tgz#da93ce77291707d69830e714d3b49cd82dba7e87"
+  integrity sha512-t7BVdJWfMVgTQh8ljUGSeK7yBV4yZXv35CPsETWrr0pogmQZj0Q0kNnrAE5XnSAAgacU6JhW9m36+wQD1OfS+Q==
   dependencies:
     "@aws-crypto/sha256-browser" "3.0.0"
     "@aws-crypto/sha256-js" "3.0.0"
-    "@aws-sdk/client-sts" "3.454.0"
+    "@aws-sdk/client-sts" "3.458.0"
     "@aws-sdk/core" "3.451.0"
-    "@aws-sdk/credential-provider-node" "3.451.0"
+    "@aws-sdk/credential-provider-node" "3.458.0"
     "@aws-sdk/middleware-host-header" "3.451.0"
     "@aws-sdk/middleware-logger" "3.451.0"
     "@aws-sdk/middleware-recursion-detection" "3.451.0"
