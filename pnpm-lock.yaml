@@ -40,7 +40,7 @@ dependencies:
     version: 3.470.0
   '@aws-sdk/client-route-53':
     specifier: ^3.72.0
-    version: 3.470.0
+    version: 3.472.0
   '@types/inquirer':
     specifier: ^7.3.3
     version: 7.3.3
@@ -1420,8 +1420,8 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-sdk/client-route-53@3.470.0:
-    resolution: {integrity: sha512-dex9+BZMpZ4q3mfgTJ53x/6l9TtFIXGG7ITMvnOtkBm5EnrAusWuwfCvP9JBuO5Uzn6ScG0RBSSxfv/q96wXnA==}
+  /@aws-sdk/client-route-53@3.472.0:
+    resolution: {integrity: sha512-rbTH8NAu1PbSROAdw/fQW8C13f/aIxFTINtcssyVYgVkRLzl5OMqCQed6f4JuKu000kMDZ30oLeErzMbDZl1eg==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -1440,7 +1440,7 @@ packages:
       '@aws-sdk/util-endpoints': 3.470.0
       '@aws-sdk/util-user-agent-browser': 3.468.0
       '@aws-sdk/util-user-agent-node': 3.470.0
-      '@aws-sdk/xml-builder': 3.465.0
+      '@aws-sdk/xml-builder': 3.472.0
       '@smithy/config-resolver': 2.0.21
       '@smithy/fetch-http-handler': 2.3.1
       '@smithy/hash-node': 2.0.17
@@ -1836,10 +1836,11 @@ packages:
       tslib: 2.5.3
     dev: false
 
-  /@aws-sdk/xml-builder@3.465.0:
-    resolution: {integrity: sha512-9TKW5ZgsReygePTnAUdvaqxr/k1HXsEz2yDnk/jTLaUeRPsd5la8fFjb6OfgYYlbEVNlxTcKzaqOdrqxpUkmyQ==}
+  /@aws-sdk/xml-builder@3.472.0:
+    resolution: {integrity: sha512-PwjVxz1hr9up8QkddabuScPZ/d5aDHgvHYgK4acHYzltXL4wngfvimi5ZqXTzVWF2QANxHmWnHUr45QJX71oJQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
+      '@smithy/types': 2.7.0
       tslib: 2.5.3
     dev: false
 
