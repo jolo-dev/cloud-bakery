@@ -37,7 +37,7 @@ dependencies:
     version: 1.203.0(@aws-cdk/cloud-assembly-schema@1.203.0)(@aws-cdk/cx-api@1.203.0)(@aws-cdk/region-info@1.203.0)(constructs@3.3.269)
   '@aws-sdk/client-acm':
     specifier: ^3.72.0
-    version: 3.496.0
+    version: 3.499.0
   '@aws-sdk/client-route-53':
     specifier: ^3.72.0
     version: 3.496.0
@@ -1372,15 +1372,15 @@ packages:
       tslib: 1.14.1
     dev: false
 
-  /@aws-sdk/client-acm@3.496.0:
-    resolution: {integrity: sha512-f01lz/1+HHX+Jdg5hWDXdRzrTt3AIsj49Oe+o1YnyAtS4XkGEES3K5gnwVkqesGLeRZnQlYFrVCJnGP9lsLhmQ==}
+  /@aws-sdk/client-acm@3.499.0:
+    resolution: {integrity: sha512-zwY5TCsjvU3Zr8aaLHj6XkKTCtyrQagQMCUYzJi0aXMAa9U56GIoJNhJ288zIdQhyW7ANynMRkEAAKu8BoaabA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.496.0
+      '@aws-sdk/client-sts': 3.499.0
       '@aws-sdk/core': 3.496.0
-      '@aws-sdk/credential-provider-node': 3.496.0
+      '@aws-sdk/credential-provider-node': 3.499.0
       '@aws-sdk/middleware-host-header': 3.496.0
       '@aws-sdk/middleware-logger': 3.496.0
       '@aws-sdk/middleware-recursion-detection': 3.496.0
@@ -1566,6 +1566,54 @@ packages:
       - aws-crt
     dev: false
 
+  /@aws-sdk/client-sts@3.499.0:
+    resolution: {integrity: sha512-Eyj9STw2DXMtXL5V/v0HYHO6+JjGPi257M5IYyxwqlvRchq6jbOsedobfxclB/gBUyBRtZdnyAIS8uCKjb4kpA==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@aws-crypto/sha256-browser': 3.0.0
+      '@aws-crypto/sha256-js': 3.0.0
+      '@aws-sdk/core': 3.496.0
+      '@aws-sdk/credential-provider-node': 3.499.0
+      '@aws-sdk/middleware-host-header': 3.496.0
+      '@aws-sdk/middleware-logger': 3.496.0
+      '@aws-sdk/middleware-recursion-detection': 3.496.0
+      '@aws-sdk/middleware-user-agent': 3.496.0
+      '@aws-sdk/region-config-resolver': 3.496.0
+      '@aws-sdk/types': 3.496.0
+      '@aws-sdk/util-endpoints': 3.496.0
+      '@aws-sdk/util-user-agent-browser': 3.496.0
+      '@aws-sdk/util-user-agent-node': 3.496.0
+      '@smithy/config-resolver': 2.1.1
+      '@smithy/core': 1.3.1
+      '@smithy/fetch-http-handler': 2.4.1
+      '@smithy/hash-node': 2.1.1
+      '@smithy/invalid-dependency': 2.1.1
+      '@smithy/middleware-content-length': 2.1.1
+      '@smithy/middleware-endpoint': 2.4.1
+      '@smithy/middleware-retry': 2.1.1
+      '@smithy/middleware-serde': 2.1.1
+      '@smithy/middleware-stack': 2.1.1
+      '@smithy/node-config-provider': 2.2.1
+      '@smithy/node-http-handler': 2.3.1
+      '@smithy/protocol-http': 3.1.1
+      '@smithy/smithy-client': 2.3.1
+      '@smithy/types': 2.9.1
+      '@smithy/url-parser': 2.1.1
+      '@smithy/util-base64': 2.1.1
+      '@smithy/util-body-length-browser': 2.1.1
+      '@smithy/util-body-length-node': 2.2.1
+      '@smithy/util-defaults-mode-browser': 2.1.1
+      '@smithy/util-defaults-mode-node': 2.1.1
+      '@smithy/util-endpoints': 1.1.1
+      '@smithy/util-middleware': 2.1.1
+      '@smithy/util-retry': 2.1.1
+      '@smithy/util-utf8': 2.1.1
+      fast-xml-parser: 4.2.5
+      tslib: 2.5.3
+    transitivePeerDependencies:
+      - aws-crt
+    dev: false
+
   /@aws-sdk/core@3.496.0:
     resolution: {integrity: sha512-yT+ug7Cw/3eJi7x2es0+46x12+cIJm5Xv+GPWsrTFD1TKgqO/VPEgfDtHFagDNbFmjNQA65Ygc/kEdIX9ICX/A==}
     engines: {node: '>=14.0.0'}
@@ -1608,6 +1656,25 @@ packages:
 
   /@aws-sdk/credential-provider-node@3.496.0:
     resolution: {integrity: sha512-IVF9RvLePfRa5S5/eBIRChJCWOzQkGwM8P/L79Gl84u/cH2oSG4NtUI/YTDlrtmnYn7YsGhINSV0WnzfF2twfQ==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@aws-sdk/credential-provider-env': 3.496.0
+      '@aws-sdk/credential-provider-ini': 3.496.0
+      '@aws-sdk/credential-provider-process': 3.496.0
+      '@aws-sdk/credential-provider-sso': 3.496.0
+      '@aws-sdk/credential-provider-web-identity': 3.496.0
+      '@aws-sdk/types': 3.496.0
+      '@smithy/credential-provider-imds': 2.2.1
+      '@smithy/property-provider': 2.1.1
+      '@smithy/shared-ini-file-loader': 2.3.1
+      '@smithy/types': 2.9.1
+      tslib: 2.5.3
+    transitivePeerDependencies:
+      - aws-crt
+    dev: false
+
+  /@aws-sdk/credential-provider-node@3.499.0:
+    resolution: {integrity: sha512-EsiSevVmcVSMIq7D9siSH/XVc5I0vMntg1rx6KQdng1Fq8X/RBL5t9wSWEwOl7KFo5HlEsWrLWIpo1WHuzIL/w==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/credential-provider-env': 3.496.0
