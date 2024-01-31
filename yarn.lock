@@ -1371,15 +1371,15 @@
     tslib "^1.11.1"
 
 "@aws-sdk/client-acm@^3.72.0":
-  version "3.502.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-acm/-/client-acm-3.502.0.tgz#fa039e5f0d76fd1ab1286e689823fc476cfc54df"
-  integrity sha512-Vz5JxOKPLnsbJr7e06aeZKknVC2rQvX3Fsr+WVk8c6CYBN7wkPf9gCRmJIFz8sHZv0GFMX9s1N6v3odGAjjxvg==
+  version "3.503.1"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-acm/-/client-acm-3.503.1.tgz#4ec390ed60a00e4799ce17ee997a552ffff4d898"
+  integrity sha512-8f6aX7MiCVosTSvW/eyDe3R1t0GWjLBpotQv9Ik2+hH2+/e+0VpkHqNw8q9eSwUqI9li/Pe2Zr7lOTOINLsjyg==
   dependencies:
     "@aws-crypto/sha256-browser" "3.0.0"
     "@aws-crypto/sha256-js" "3.0.0"
     "@aws-sdk/client-sts" "3.502.0"
     "@aws-sdk/core" "3.496.0"
-    "@aws-sdk/credential-provider-node" "3.502.0"
+    "@aws-sdk/credential-provider-node" "3.503.1"
     "@aws-sdk/middleware-host-header" "3.502.0"
     "@aws-sdk/middleware-logger" "3.502.0"
     "@aws-sdk/middleware-recursion-detection" "3.502.0"
@@ -1637,23 +1637,6 @@
     "@smithy/util-stream" "^2.1.1"
     tslib "^2.5.0"
 
-"@aws-sdk/credential-provider-ini@3.502.0":
-  version "3.502.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.502.0.tgz#7bfe665689a7c9002d43d0203ecd5a525ac95bd0"
-  integrity sha512-1wB/escbspUY6uRDEMp9AMMyypUSyuQ0AMO1yQNtXviV8cPf+CuRbqP/UVnimHO1RuX0n5BmjDVVjUIEU6kuGA==
-  dependencies:
-    "@aws-sdk/client-sts" "3.502.0"
-    "@aws-sdk/credential-provider-env" "3.502.0"
-    "@aws-sdk/credential-provider-process" "3.502.0"
-    "@aws-sdk/credential-provider-sso" "3.502.0"
-    "@aws-sdk/credential-provider-web-identity" "3.502.0"
-    "@aws-sdk/types" "3.502.0"
-    "@smithy/credential-provider-imds" "^2.2.1"
-    "@smithy/property-provider" "^2.1.1"
-    "@smithy/shared-ini-file-loader" "^2.3.1"
-    "@smithy/types" "^2.9.1"
-    tslib "^2.5.0"
-
 "@aws-sdk/credential-provider-ini@3.503.1":
   version "3.503.1"
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.503.1.tgz#888034b9c47901c76c5d0edc80c331832abcbe1c"
@@ -1663,23 +1646,6 @@
     "@aws-sdk/credential-provider-env" "3.502.0"
     "@aws-sdk/credential-provider-process" "3.502.0"
     "@aws-sdk/credential-provider-sso" "3.503.1"
-    "@aws-sdk/credential-provider-web-identity" "3.502.0"
-    "@aws-sdk/types" "3.502.0"
-    "@smithy/credential-provider-imds" "^2.2.1"
-    "@smithy/property-provider" "^2.1.1"
-    "@smithy/shared-ini-file-loader" "^2.3.1"
-    "@smithy/types" "^2.9.1"
-    tslib "^2.5.0"
-
-"@aws-sdk/credential-provider-node@3.502.0":
-  version "3.502.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-node/-/credential-provider-node-3.502.0.tgz#68929ccd6b99075e19e42a47d2baed84f24b0b05"
-  integrity sha512-qg71UpYeFrjhu5hD+vdRqZ+EYFB11BeszsbfEJGaHhOMHmmTHNBaDAexW+bUnJSXcJL0a8vniCvca+rElbcAHQ==
-  dependencies:
-    "@aws-sdk/credential-provider-env" "3.502.0"
-    "@aws-sdk/credential-provider-ini" "3.502.0"
-    "@aws-sdk/credential-provider-process" "3.502.0"
-    "@aws-sdk/credential-provider-sso" "3.502.0"
     "@aws-sdk/credential-provider-web-identity" "3.502.0"
     "@aws-sdk/types" "3.502.0"
     "@smithy/credential-provider-imds" "^2.2.1"
@@ -1711,19 +1677,6 @@
   resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-process/-/credential-provider-process-3.502.0.tgz#6c41d8845a1c7073491a064c158363de04640381"
   integrity sha512-fJJowOjQ4infYQX0E1J3xFVlmuwEYJAFk0Mo1qwafWmEthsBJs+6BR2RiWDELHKrSK35u4Pf3fu3RkYuCtmQFw==
   dependencies:
-    "@aws-sdk/types" "3.502.0"
-    "@smithy/property-provider" "^2.1.1"
-    "@smithy/shared-ini-file-loader" "^2.3.1"
-    "@smithy/types" "^2.9.1"
-    tslib "^2.5.0"
-
-"@aws-sdk/credential-provider-sso@3.502.0":
-  version "3.502.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-sso/-/credential-provider-sso-3.502.0.tgz#0ce95599115afdbbeb030a911b63acd662ba7ebf"
-  integrity sha512-/2Nyvo+cWQpH283lmZBimTJ9JDhES9FzQUkhUXZgxQo3Ez4sguLVi2V9xoFFyG0cMff5fuNivdKHfj4FeMGjZw==
-  dependencies:
-    "@aws-sdk/client-sso" "3.502.0"
-    "@aws-sdk/token-providers" "3.502.0"
     "@aws-sdk/types" "3.502.0"
     "@smithy/property-provider" "^2.1.1"
     "@smithy/shared-ini-file-loader" "^2.3.1"
